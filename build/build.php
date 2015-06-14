@@ -1,4 +1,4 @@
-<?
+<?php
 	$in = file_get_contents('emoji-data/emoji.json');
 	$d = json_decode($in, true);
 
@@ -120,3 +120,4 @@
 		$buffer = substr($buffer, 0, -2)."\n{$pad}}";
 		return $buffer;
 	}
+?>
